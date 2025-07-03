@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: /sitemap.xml
+
+# Disallow admin and login paths
+Disallow: /admin/
+Disallow: /login/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow all bots to crawl the site
+Crawl-delay: 1
