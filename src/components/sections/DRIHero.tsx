@@ -38,9 +38,9 @@ const DRIHero = () => {
         scaleMobile: 1.00,
         color: 0x1fff,
         backgroundColor: 0x4a,
-        points: 7.00,
-        maxDistance: 23.00,
-        spacing: 18.00
+        points: 17.00,
+        maxDistance: 33.00,
+        spacing: 17.00
       });
     }
 
