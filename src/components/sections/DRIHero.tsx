@@ -59,7 +59,7 @@ const DRIHero = () => {
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
             >
               D.R.I ASSESSORIA
-              <span className="block text-primary mt-2">EMPRESARIAL</span>
+              <span className="block text-white mt-2">EMPRESARIAL</span>
             </motion.h1>
 
             <motion.p
@@ -114,7 +114,7 @@ const DRIHero = () => {
             >
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-2">
-                  <Clock className="w-5 h-5 text-primary mr-2" />
+                  <Clock className="w-5 h-5 text-white mr-2" />
                   <span className="text-2xl font-bold text-white">25+</span>
                 </div>
                 <p className="text-sm text-white/80">Anos no mercado</p>
@@ -122,7 +122,7 @@ const DRIHero = () => {
               
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-2">
-                  <Users className="w-5 h-5 text-primary mr-2" />
+                  <Users className="w-5 h-5 text-white mr-2" />
                   <span className="text-2xl font-bold text-white">1000+</span>
                 </div>
                 <p className="text-sm text-white/80">Clientes atendidos</p>
@@ -130,7 +130,7 @@ const DRIHero = () => {
               
               <div className="text-center lg:text-left col-span-2 lg:col-span-1">
                 <div className="flex items-center justify-center lg:justify-start mb-2">
-                  <Award className="w-5 h-5 text-primary mr-2" />
+                  <Award className="w-5 h-5 text-white mr-2" />
                   <span className="text-2xl font-bold text-white">100%</span>
                 </div>
                 <p className="text-sm text-white/80">Dedicação</p>
