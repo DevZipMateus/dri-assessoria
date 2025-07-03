@@ -1,8 +1,12 @@
 import { ArrowRight, Clock, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 
 const DRIHero = () => {
+  const vantaRef = useRef<HTMLElement>(null);
+  const vantaEffect = useRef<any>(null);
+
   const handleContactClick = () => {
     const element = document.querySelector('#contato');
     if (element) {
@@ -21,17 +25,37 @@ const DRIHero = () => {
     window.open('https://wa.me/5511919919022?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20de%20contabilidade.', '_blank');
   };
 
+  useEffect(() => {
+    if (vantaRef.current && (window as any).VANTA) {
+      vantaEffect.current = (window as any).VANTA.NET({
+        el: vantaRef.current,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x1fff,
+        backgroundColor: 0x4a,
+        points: 7.00,
+        maxDistance: 23.00,
+        spacing: 18.00
+      });
+    }
+
+    return () => {
+      if (vantaEffect.current) {
+        vantaEffect.current.destroy();
+      }
+    };
+  }, []);
+
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <img 
-          src="/lovable-uploads/bbfc82a9-54e4-4120-aab1-4ea594b0d2d7.png" 
-          alt="Background" 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/30"></div>
-      </div>
+    <section 
+      ref={vantaRef}
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
