@@ -6,7 +6,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import DRIAssessoria from "./pages/DRIAssessoria";
-import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +18,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<DRIAssessoria />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<DRIAssessoria />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
