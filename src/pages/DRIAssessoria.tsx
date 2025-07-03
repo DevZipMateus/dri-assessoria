@@ -9,6 +9,7 @@ import LazySection from '@/components/ui/LazySection';
 // Lazy load das seções não críticas
 const DRIAbout = lazy(() => import('@/components/sections/DRIAbout'));
 const DRIServices = lazy(() => import('@/components/sections/DRIServices'));
+const EgestorERP = lazy(() => import('@/components/sections/EgestorERP'));
 const DRIPlans = lazy(() => import('@/components/sections/DRIPlans'));
 const DRITestimonials = lazy(() => import('@/components/sections/DRITestimonials'));
 const DRILocation = lazy(() => import('@/components/sections/DRILocation'));
@@ -91,6 +92,14 @@ const DRIAssessoria = () => {
             <LazySection fallback={<LoadingFallback />} threshold={0.2}>
               <Suspense fallback={<LoadingFallback />}>
                 <DRIServices />
+              </Suspense>
+            </LazySection>
+          </section>
+          
+          <section id="egestor">
+            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
+              <Suspense fallback={<LoadingFallback />}>
+                <EgestorERP />
               </Suspense>
             </LazySection>
           </section>
