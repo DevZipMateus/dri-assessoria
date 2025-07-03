@@ -91,8 +91,8 @@ const DRIHero = () => {
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-4 h-auto"
               >
+                <img src="/lovable-uploads/cb022330-83fa-4f2f-8c4e-329817a37119.png" alt="WhatsApp" className="w-5 h-5 mr-2" />
                 Falar no WhatsApp
-                <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               
               <Button

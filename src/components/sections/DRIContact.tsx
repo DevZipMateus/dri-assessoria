@@ -93,7 +93,7 @@ Mensagem: ${message}`;
       color: "text-blue-600"
     },
     {
-      icon: <MessageCircle className="w-6 h-6" />,
+      icon: <img src="/lovable-uploads/cb022330-83fa-4f2f-8c4e-329817a37119.png" alt="WhatsApp" className="w-6 h-6" />,
       title: "WhatsApp",
       content: "Atendimento Rápido",
       action: () => window.open('https://wa.me/5511919919022?text=Olá!%20Gostaria%20de%20mais%20informações.', '_blank'),
@@ -227,7 +227,7 @@ Mensagem: ${message}`;
                 size="lg"
                 className="w-full bg-green-600 hover:bg-green-700 text-white"
               >
-                <Send className="w-5 h-5 mr-2" />
+                <img src="/lovable-uploads/cb022330-83fa-4f2f-8c4e-329817a37119.png" alt="WhatsApp" className="w-5 h-5 mr-2" />
                 Enviar via WhatsApp
               </Button>
 
@@ -304,10 +304,11 @@ Mensagem: ${message}`;
                 Cada empresa tem suas particularidades. Oferecemos soluções 
                 personalizadas para atender suas necessidades específicas.
               </p>
-              <Button
+               <Button
                 onClick={() => window.open('https://wa.me/5511919919022?text=Gostaria%20de%20um%20atendimento%20personalizado.', '_blank')}
                 className="w-full bg-primary hover:bg-accent text-primary-foreground"
               >
+                <img src="/lovable-uploads/cb022330-83fa-4f2f-8c4e-329817a37119.png" alt="WhatsApp" className="w-4 h-4 mr-2" />
                 Falar com Especialista
               </Button>
             </motion.div>

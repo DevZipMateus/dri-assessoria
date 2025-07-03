@@ -48,7 +48,7 @@ const DRIWhatsAppFloat = () => {
             }`}
             aria-label="Contato via WhatsApp"
           >
-            <MessageCircle className="w-8 h-8" />
+            <img src="/lovable-uploads/cb022330-83fa-4f2f-8c4e-329817a37119.png" alt="WhatsApp" className="w-8 h-8" />
             
             {/* Notification dot */}
             <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center">
