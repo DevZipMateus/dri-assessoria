@@ -3,14 +3,12 @@ import { Helmet } from 'react-helmet-async';
 import DRIHeader from '@/components/layout/DRIHeader';
 import DRIFooter from '@/components/layout/DRIFooter';
 import DRIHero from '@/components/sections/DRIHero';
+import DRIAbout from '@/components/sections/DRIAbout';
+import DRIServices from '@/components/sections/DRIServices';
+import EgestorERP from '@/components/sections/EgestorERP';
 import DRIWhatsAppFloat from '@/components/ui/DRIWhatsAppFloat';
-import LazySection from '@/components/ui/LazySection';
 
-// Lazy load das seções não críticas
-const DRIAbout = lazy(() => import('@/components/sections/DRIAbout'));
-const DRIServices = lazy(() => import('@/components/sections/DRIServices'));
-const EgestorERP = lazy(() => import('@/components/sections/EgestorERP'));
-const DRIPlans = lazy(() => import('@/components/sections/DRIPlans'));
+// Lazy load apenas das seções menos críticas
 const DRITestimonials = lazy(() => import('@/components/sections/DRITestimonials'));
 const DRILocation = lazy(() => import('@/components/sections/DRILocation'));
 const DRIContact = lazy(() => import('@/components/sections/DRIContact'));
@@ -81,59 +79,33 @@ const DRIAssessoria = () => {
           </section>
           
           <section id="sobre">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <DRIAbout />
-              </Suspense>
-            </LazySection>
+            <DRIAbout />
           </section>
           
           <section id="servicos">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <DRIServices />
-              </Suspense>
-            </LazySection>
+            <DRIServices />
           </section>
           
           <section id="egestor">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <EgestorERP />
-              </Suspense>
-            </LazySection>
-          </section>
-          
-          <section id="planos">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <DRIPlans />
-              </Suspense>
-            </LazySection>
+            <EgestorERP />
           </section>
           
           <section id="depoimentos">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <DRITestimonials />
-              </Suspense>
-            </LazySection>
+            <Suspense fallback={<LoadingFallback />}>
+              <DRITestimonials />
+            </Suspense>
           </section>
           
           <section id="localizacao">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <DRILocation />
-              </Suspense>
-            </LazySection>
+            <Suspense fallback={<LoadingFallback />}>
+              <DRILocation />
+            </Suspense>
           </section>
           
           <section id="contato">
-            <LazySection fallback={<LoadingFallback />} threshold={0.2}>
-              <Suspense fallback={<LoadingFallback />}>
-                <DRIContact />
-              </Suspense>
-            </LazySection>
+            <Suspense fallback={<LoadingFallback />}>
+              <DRIContact />
+            </Suspense>
           </section>
         </main>
         
