@@ -7,10 +7,11 @@
 
 @layer base {
   :root {
-    /* D.R.I Color System - Navy Blue, Dark Blue, Light Gray, White */
-    --navy-blue: 210 100% 15%;     /* #003d7a - Navy Blue */
-    --dark-blue: 217 91% 25%;      /* #0d4f8c - Dark Blue */
-    --light-gray: 216 12% 84%;     /* #d1d5db - Light Gray */
+    /* D.R.I Color System - Based on Logo Colors */
+    --logo-blue: 210 35% 45%;      /* #4a6b8a - Logo blue tone */
+    --logo-light: 210 25% 75%;     /* #a8b8c8 - Logo light blue */
+    --navy-blue: 210 50% 25%;      /* #1f3a5f - Deeper navy */
+    --light-gray: 210 15% 90%;     /* #e1e5e9 - Soft gray */
     --pure-white: 0 0% 100%;       /* #ffffff - White */
     
     /* Semantic Colors */
@@ -23,24 +24,24 @@
     --popover: var(--pure-white);
     --popover-foreground: var(--navy-blue);
 
-    --primary: var(--navy-blue);
+    --primary: var(--logo-blue);
     --primary-foreground: var(--pure-white);
 
     --secondary: var(--light-gray);
     --secondary-foreground: var(--navy-blue);
 
     --muted: var(--light-gray);
-    --muted-foreground: var(--dark-blue);
+    --muted-foreground: var(--logo-blue);
 
-    --accent: var(--dark-blue);
+    --accent: var(--navy-blue);
     --accent-foreground: var(--pure-white);
 
     --destructive: 0 84% 60%;
     --destructive-foreground: var(--pure-white);
 
-    --border: var(--light-gray);
+    --border: var(--logo-light);
     --input: var(--pure-white);
-    --ring: var(--dark-blue);
+    --ring: var(--logo-blue);
 
     --radius: 0.5rem;
   }

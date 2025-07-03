@@ -43,14 +43,21 @@ const DRIHeader = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-background/95 backdrop-blur-sm shadow-lg border-b border-border' 
-        : 'bg-transparent'
+        ? 'bg-background/98 backdrop-blur-md shadow-lg border-b border-border' 
+        : 'bg-gradient-to-r from-primary/95 to-accent/95 backdrop-blur-sm'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-xl md:text-2xl font-bold text-primary">
+          <div className="flex-shrink-0 flex items-center">
+            <img 
+              src="/lovable-uploads/c43fa364-fba0-4eb6-a299-05886dcbafd6.png" 
+              alt="D.R.I ASSESSORIA EMPRESARIAL" 
+              className="h-10 md:h-12 w-auto mr-3"
+            />
+            <h1 className={`text-lg md:text-xl font-bold ${
+              isScrolled ? 'text-primary' : 'text-white'
+            }`}>
               D.R.I ASSESSORIA
             </h1>
           </div>
@@ -61,7 +68,11 @@ const DRIHeader = () => {
               <button
                 key={item.name}
                 onClick={() => handleNavClick(item.href)}
-                className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                className={`${
+                  isScrolled 
+                    ? 'text-foreground hover:text-primary' 
+                    : 'text-white/90 hover:text-white'
+                } transition-colors duration-200 font-medium`}
               >
                 {item.name}
               </button>
@@ -72,7 +83,11 @@ const DRIHeader = () => {
           <div className="hidden md:block">
             <Button 
               onClick={() => handleNavClick('#contato')}
-              className="bg-primary hover:bg-accent text-primary-foreground"
+              className={`${
+                isScrolled 
+                  ? 'bg-primary hover:bg-accent text-primary-foreground' 
+                  : 'bg-white hover:bg-white/90 text-primary'
+              } transition-all duration-200`}
             >
               Fale Conosco
             </Button>
@@ -84,7 +99,9 @@ const DRIHeader = () => {
               variant="ghost"
               size="sm"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-foreground"
+              className={`${
+                isScrolled ? 'text-foreground' : 'text-white'
+              } transition-colors duration-200`}
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
