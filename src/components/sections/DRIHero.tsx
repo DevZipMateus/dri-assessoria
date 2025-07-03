@@ -83,7 +83,7 @@ const DRIHero = () => {
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
             >
               D.R.I ASSESSORIA
-              <span className="block text-white mt-2">EMPRESARIAL</span>
+              <span className="block mt-2" style={{ color: '#476d98' }}>EMPRESARIAL</span>
             </motion.h1>
 
             <motion.p
