@@ -56,7 +56,7 @@ const DRILocation = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="py-16 bg-secondary/20">
+    <section ref={sectionRef} className="py-16 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -94,7 +94,7 @@ const DRILocation = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
-                className="bg-background p-6 rounded-xl border border-border hover:shadow-lg transition-all duration-300"
+                className="bg-card p-6 rounded-xl border border-border hover:shadow-lg transition-all duration-300"
               >
                 <div className="flex items-start">
                   <div className="text-primary mr-4 mt-1">
@@ -139,7 +139,7 @@ const DRILocation = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="relative"
           >
-            <div className="bg-background rounded-2xl p-4 border border-border shadow-lg">
+            <div className="bg-card rounded-2xl p-4 border border-border shadow-lg">
               <div className="aspect-video bg-secondary/20 rounded-xl overflow-hidden">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8447449089776!2d-46.858267625054676!3d-23.64876126723089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b6f9f0f9b1b%3A0x1234567890abcdef!2sAv.%20Elias%20Yazbek%2C%20675%20-%20Jardim%20Independencia%2C%20Embu%20das%20Artes%20-%20SP%2C%2006803-000!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
@@ -156,7 +156,7 @@ const DRILocation = () => {
             </div>
 
             {/* Location Card Overlay */}
-            <div className="absolute top-8 left-8 bg-background/95 backdrop-blur-sm rounded-lg p-4 border border-border shadow-lg max-w-xs">
+            <div className="absolute top-8 left-8 bg-card/95 backdrop-blur-sm rounded-lg p-4 border border-border shadow-lg max-w-xs">
               <div className="flex items-center mb-2">
                 <MapPin className="w-5 h-5 text-primary mr-2" />
                 <span className="font-semibold text-foreground text-sm">D.R.I ASSESSORIA</span>

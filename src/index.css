@@ -7,40 +7,41 @@
 
 @layer base {
   :root {
-    /* D.R.I Color System - Based on Logo Colors */
+    /* D.R.I Dark Navy Theme */
+    --navy-dark: 210 45% 12%;      /* #1a2332 - Dark navy background */
+    --navy-blue: 210 50% 25%;      /* #1f3a5f - Deeper navy */
     --logo-blue: 210 35% 45%;      /* #4a6b8a - Logo blue tone */
     --logo-light: 210 25% 75%;     /* #a8b8c8 - Logo light blue */
-    --navy-blue: 210 50% 25%;      /* #1f3a5f - Deeper navy */
     --light-gray: 210 15% 90%;     /* #e1e5e9 - Soft gray */
     --pure-white: 0 0% 100%;       /* #ffffff - White */
     
-    /* Semantic Colors */
-    --background: var(--pure-white);
-    --foreground: var(--navy-blue);
+    /* Semantic Colors - Dark Navy Theme */
+    --background: var(--navy-dark);
+    --foreground: var(--pure-white);
 
-    --card: var(--pure-white);
-    --card-foreground: var(--navy-blue);
+    --card: var(--navy-blue);
+    --card-foreground: var(--pure-white);
 
-    --popover: var(--pure-white);
-    --popover-foreground: var(--navy-blue);
+    --popover: var(--navy-blue);
+    --popover-foreground: var(--pure-white);
 
     --primary: var(--logo-blue);
     --primary-foreground: var(--pure-white);
 
-    --secondary: var(--light-gray);
-    --secondary-foreground: var(--navy-blue);
+    --secondary: var(--navy-blue);
+    --secondary-foreground: var(--pure-white);
 
-    --muted: var(--light-gray);
-    --muted-foreground: var(--logo-blue);
+    --muted: var(--navy-blue);
+    --muted-foreground: var(--logo-light);
 
-    --accent: var(--navy-blue);
+    --accent: var(--logo-blue);
     --accent-foreground: var(--pure-white);
 
     --destructive: 0 84% 60%;
     --destructive-foreground: var(--pure-white);
 
-    --border: var(--logo-light);
-    --input: var(--pure-white);
+    --border: var(--logo-blue);
+    --input: var(--navy-blue);
     --ring: var(--logo-blue);
 
     --radius: 0.5rem;

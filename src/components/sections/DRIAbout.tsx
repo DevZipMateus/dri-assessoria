@@ -51,7 +51,7 @@ const DRIAbout = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="py-16 bg-secondary/30">
+    <section ref={sectionRef} className="py-16 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -82,11 +82,11 @@ const DRIAbout = () => {
             </p>
 
             <div className="grid grid-cols-2 gap-4">
-              <div className="text-center p-4 bg-background rounded-lg border border-border">
+              <div className="text-center p-4 bg-card rounded-lg border border-border">
                 <div className="text-2xl font-bold text-primary mb-1">25+</div>
                 <div className="text-sm text-muted-foreground">Anos de Mercado</div>
               </div>
-              <div className="text-center p-4 bg-background rounded-lg border border-border">
+              <div className="text-center p-4 bg-card rounded-lg border border-border">
                 <div className="text-2xl font-bold text-primary mb-1">1000+</div>
                 <div className="text-sm text-muted-foreground">Clientes Atendidos</div>
               </div>
@@ -106,7 +106,7 @@ const DRIAbout = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
-                className="bg-background p-6 rounded-xl border border-border hover:shadow-lg transition-shadow duration-300"
+                className="bg-card p-6 rounded-xl border border-border hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="mb-4">{feature.icon}</div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
