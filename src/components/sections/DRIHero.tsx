@@ -56,7 +56,7 @@ const DRIHero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight"
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
             >
               D.R.I ASSESSORIA
               <span className="block text-primary mt-2">EMPRESARIAL</span>
@@ -66,7 +66,7 @@ const DRIHero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-xl text-muted-foreground mb-4 font-medium"
+              className="text-xl text-white mb-4 font-medium"
             >
               SEU SUCESSO NOSSA PRIORIDADE SEMPRE
             </motion.p>
@@ -75,7 +75,7 @@ const DRIHero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg text-muted-foreground mb-8 leading-relaxed"
+              className="text-lg text-white mb-8 leading-relaxed"
             >
               Especializada em Simples Nacional e MEI, prestando informação e direcionamento ao empresário há mais de 25 anos.
             </motion.p>
@@ -99,7 +99,7 @@ const DRIHero = () => {
                 onClick={handleContactClick}
                 variant="outline"
                 size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4 h-auto"
+                className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4 h-auto"
               >
                 Nossos Serviços
               </Button>
@@ -115,25 +115,25 @@ const DRIHero = () => {
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-2">
                   <Clock className="w-5 h-5 text-primary mr-2" />
-                  <span className="text-2xl font-bold text-foreground">25+</span>
+                  <span className="text-2xl font-bold text-white">25+</span>
                 </div>
-                <p className="text-sm text-muted-foreground">Anos no mercado</p>
+                <p className="text-sm text-white/80">Anos no mercado</p>
               </div>
               
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-2">
                   <Users className="w-5 h-5 text-primary mr-2" />
-                  <span className="text-2xl font-bold text-foreground">1000+</span>
+                  <span className="text-2xl font-bold text-white">1000+</span>
                 </div>
-                <p className="text-sm text-muted-foreground">Clientes atendidos</p>
+                <p className="text-sm text-white/80">Clientes atendidos</p>
               </div>
               
               <div className="text-center lg:text-left col-span-2 lg:col-span-1">
                 <div className="flex items-center justify-center lg:justify-start mb-2">
                   <Award className="w-5 h-5 text-primary mr-2" />
-                  <span className="text-2xl font-bold text-foreground">100%</span>
+                  <span className="text-2xl font-bold text-white">100%</span>
                 </div>
-                <p className="text-sm text-muted-foreground">Dedicação</p>
+                <p className="text-sm text-white/80">Dedicação</p>
               </div>
             </motion.div>
           </motion.div>
@@ -151,32 +151,32 @@ const DRIHero = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Users className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Simples Nacional</h3>
-                  <p className="text-sm text-muted-foreground">Especialização em enquadramento e gestão</p>
+                  <h3 className="font-semibold text-white mb-2">Simples Nacional</h3>
+                  <p className="text-sm text-white/80">Especialização em enquadramento e gestão</p>
                 </div>
 
                 <div className="bg-background rounded-2xl p-6 shadow-lg border border-border">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Award className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">MEI</h3>
-                  <p className="text-sm text-muted-foreground">Apoio completo ao microempreendedor</p>
+                  <h3 className="font-semibold text-white mb-2">MEI</h3>
+                  <p className="text-sm text-white/80">Apoio completo ao microempreendedor</p>
                 </div>
 
                 <div className="bg-background rounded-2xl p-6 shadow-lg border border-border">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Folha de Pagamento</h3>
-                  <p className="text-sm text-muted-foreground">Gestão completa de RH</p>
+                  <h3 className="font-semibold text-white mb-2">Folha de Pagamento</h3>
+                  <p className="text-sm text-white/80">Gestão completa de RH</p>
                 </div>
 
                 <div className="bg-background rounded-2xl p-6 shadow-lg border border-border">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <ArrowRight className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Assessoria</h3>
-                  <p className="text-sm text-muted-foreground">Orientação estratégica empresarial</p>
+                  <h3 className="font-semibold text-white mb-2">Assessoria</h3>
+                  <p className="text-sm text-white/80">Orientação estratégica empresarial</p>
                 </div>
               </div>
               
