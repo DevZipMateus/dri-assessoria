@@ -57,7 +57,7 @@ const DRIHeader = () => {
             <h1 className={`text-lg md:text-xl font-bold ${
               isScrolled ? 'text-primary' : 'text-white'
             }`}>
-              D.R.I ASSESSORIA
+              D.R.I. ASSESSORIA
             </h1>
           </div>
 
