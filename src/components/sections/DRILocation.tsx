@@ -149,7 +149,7 @@ const DRILocation = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização D.R.I ASSESSORIA EMPRESARIAL"
+                  title="Localização D.R.I. ASSESSORIA EMPRESARIAL"
                   className="rounded-lg"
                 ></iframe>
               </div>
@@ -159,7 +159,7 @@ const DRILocation = () => {
             <div className="absolute top-8 left-8 bg-card/95 backdrop-blur-sm rounded-lg p-4 border border-border shadow-lg max-w-xs">
               <div className="flex items-center mb-2">
                 <MapPin className="w-5 h-5 text-primary mr-2" />
-                <span className="font-semibold text-foreground text-sm">D.R.I ASSESSORIA</span>
+                <span className="font-semibold text-foreground text-sm"><abbr title="D.R.I. ASSESSORIA EMPRESARIAL" className="no-underline">D.R.I.</abbr> ASSESSORIA</span>
               </div>
               <p className="text-xs text-muted-foreground leading-relaxed">
                 Av. Elias Yazbek, 675 - Conj 01<br />

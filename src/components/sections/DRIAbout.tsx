@@ -71,7 +71,7 @@ const DRIAbout = () => {
             </h2>
 
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              A <strong>D.R.I ASSESSORIA EMPRESARIAL</strong> está há mais de 25 anos no mercado, 
+              A <strong><abbr title="D.R.I. ASSESSORIA EMPRESARIAL" className="no-underline">D.R.I.</abbr> ASSESSORIA EMPRESARIAL</strong> está há mais de 25 anos no mercado, 
               consolidando-se como uma referência em serviços contábeis e assessoria empresarial.
             </p>
 

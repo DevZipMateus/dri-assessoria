@@ -32,25 +32,25 @@ const DRITestimonials = () => {
     {
       name: "Maria Silva",
       role: "Proprietária - Loja de Roupas",
-      content: "A D.R.I tem sido fundamental para o sucesso da minha empresa. Com mais de 25 anos de experiência, eles realmente entendem as necessidades do pequeno empresário. O atendimento é excepcional!",
+      content: "A <span class='notranslate'>D.R.I.</span> tem sido fundamental para o sucesso da minha empresa. Com mais de 25 anos de experiência, eles realmente entendem as necessidades do pequeno empresário. O atendimento é excepcional!",
       rating: 5
     },
     {
       name: "João Santos",
       role: "MEI - Serviços de Informática",
-      content: "Como MEI, sempre tive dificuldades com a parte contábil. A equipe da D.R.I me orientou desde o início e hoje tenho total tranquilidade. Recomendo para todos os microempreendedores!",
+      content: "Como MEI, sempre tive dificuldades com a parte contábil. A equipe da <span class='notranslate'>D.R.I.</span> me orientou desde o início e hoje tenho total tranquilidade. Recomendo para todos os microempreendedores!",
       rating: 5
     },
     {
       name: "Ana Costa",
       role: "Sócia - Empresa de Consultoria",
-      content: "Trabalho com a D.R.I há mais de 10 anos. Eles acompanharam todo o crescimento da nossa empresa. Profissionais competentes e sempre atualizados com as mudanças na legislação.",
+      content: "Trabalho com a <span class='notranslate'>D.R.I.</span> há mais de 10 anos. Eles acompanharam todo o crescimento da nossa empresa. Profissionais competentes e sempre atualizados com as mudanças na legislação.",
       rating: 5
     },
     {
       name: "Carlos Oliveira",
       role: "Diretor - Empresa Familiar",
-      content: "A assessoria da D.R.I foi decisiva para o enquadramento da nossa empresa no Simples Nacional. Isso representou uma economia significativa em impostos. Excelente trabalho!",
+      content: "A assessoria da <span class='notranslate'>D.R.I.</span> foi decisiva para o enquadramento da nossa empresa no Simples Nacional. Isso representou uma economia significativa em impostos. Excelente trabalho!",
       rating: 5
     }
   ];

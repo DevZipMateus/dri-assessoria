@@ -84,6 +84,18 @@
     @apply font-display tracking-tight;
   }
 
+  /* Preserve abbreviations from translation */
+  .notranslate,
+  abbr[title] {
+    translate: no;
+  }
+  
+  /* Ensure abbreviations don't have underlines by default */
+  abbr.no-underline {
+    text-decoration: none;
+    border-bottom: none;
+  }
+
   /* Performance optimizations */
   * {
     box-sizing: border-box;

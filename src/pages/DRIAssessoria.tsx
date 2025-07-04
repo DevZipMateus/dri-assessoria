@@ -23,15 +23,15 @@ const DRIAssessoria = () => {
   return (
     <>
       <Helmet>
-        <title>D.R.I ASSESSORIA EMPRESARIAL - Seu Sucesso Nossa Prioridade Sempre</title>
+        <title>D.R.I. ASSESSORIA EMPRESARIAL - Seu Sucesso Nossa Prioridade Sempre</title>
         <meta name="description" content="Empresa há mais de 25 anos no mercado, especializada em Simples Nacional e MEI. Oferecemos serviços de contabilidade, recursos humanos, folha de pagamento e abertura de empresas em Embu das Artes - SP." />
         <meta name="keywords" content="contabilidade, simples nacional, MEI, micro empreendedor, recursos humanos, folha pagamento, abertura empresa, embu das artes, assessoria empresarial" />
-        <meta name="author" content="D.R.I ASSESSORIA EMPRESARIAL" />
+        <meta name="author" content="D.R.I. ASSESSORIA EMPRESARIAL" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="/" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="D.R.I ASSESSORIA EMPRESARIAL - Seu Sucesso Nossa Prioridade Sempre" />
+        <meta property="og:title" content="D.R.I. ASSESSORIA EMPRESARIAL - Seu Sucesso Nossa Prioridade Sempre" />
         <meta property="og:description" content="Empresa há mais de 25 anos no mercado, especializada em Simples Nacional e MEI. Oferecemos serviços completos de contabilidade e assessoria empresarial." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="/" />
@@ -39,7 +39,7 @@ const DRIAssessoria = () => {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="D.R.I ASSESSORIA EMPRESARIAL - Seu Sucesso Nossa Prioridade Sempre" />
+        <meta name="twitter:title" content="D.R.I. ASSESSORIA EMPRESARIAL - Seu Sucesso Nossa Prioridade Sempre" />
         <meta name="twitter:description" content="Empresa há mais de 25 anos no mercado, especializada em Simples Nacional e MEI." />
         <meta name="twitter:image" content="/og-image.jpg" />
         
@@ -48,7 +48,7 @@ const DRIAssessoria = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "AccountingService",
-            "name": "D.R.I ASSESSORIA EMPRESARIAL",
+            "name": "D.R.I. ASSESSORIA EMPRESARIAL",
             "description": "Empresa há mais de 25 anos no mercado, especializada em Simples Nacional e MEI",
             "url": "/",
             "telephone": "+55-11-91991-9022",

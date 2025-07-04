@@ -27,7 +27,7 @@ const DRIWhatsAppFloat = () => {
 
   const handleClick = () => {
     window.open(
-      'https://wa.me/5511919919022?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20de%20contabilidade%20da%20D.R.I%20ASSESSORIA%20EMPRESARIAL.',
+      'https://wa.me/5511919919022?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20de%20contabilidade%20da%20D.R.I.%20ASSESSORIA%20EMPRESARIAL.',
       '_blank'
     );
   };

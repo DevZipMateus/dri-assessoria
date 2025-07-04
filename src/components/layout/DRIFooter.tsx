@@ -7,7 +7,7 @@ const DRIFooter = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">D.R.I ASSESSORIA EMPRESARIAL</h3>
+            <h3 className="text-xl font-bold mb-4"><abbr title="D.R.I. ASSESSORIA EMPRESARIAL" className="no-underline">D.R.I.</abbr> ASSESSORIA EMPRESARIAL</h3>
             <p className="text-primary-foreground/80 mb-4">
               SEU SUCESSO NOSSA PRIORIDADE SEMPRE
             </p>
@@ -54,7 +54,7 @@ const DRIFooter = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 D.R.I ASSESSORIA EMPRESARIAL. Todos os direitos reservados.
+            © 2024 <abbr title="D.R.I. ASSESSORIA EMPRESARIAL" className="no-underline">D.R.I.</abbr> ASSESSORIA EMPRESARIAL. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -51,13 +51,13 @@ const DRIHeader = () => {
           <div className="flex-shrink-0 flex items-center">
             <img 
               src="/lovable-uploads/c43fa364-fba0-4eb6-a299-05886dcbafd6.png" 
-              alt="D.R.I ASSESSORIA EMPRESARIAL" 
+              alt="D.R.I. ASSESSORIA EMPRESARIAL" 
               className="h-10 md:h-12 w-auto mr-3"
             />
             <h1 className={`text-lg md:text-xl font-bold ${
               isScrolled ? 'text-primary' : 'text-white'
             }`}>
-              D.R.I. ASSESSORIA
+              <abbr title="D.R.I. ASSESSORIA EMPRESARIAL" className="no-underline">D.R.I.</abbr> ASSESSORIA
             </h1>
           </div>
 
