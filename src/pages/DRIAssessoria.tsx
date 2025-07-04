@@ -78,16 +78,16 @@ const DRIAssessoria = () => {
             <DRIHero />
           </section>
           
+          <section id="egestor">
+            <EgestorERP />
+          </section>
+          
           <section id="sobre">
             <DRIAbout />
           </section>
           
           <section id="servicos">
             <DRIServices />
-          </section>
-          
-          <section id="egestor">
-            <EgestorERP />
           </section>
           
           <section id="depoimentos">
