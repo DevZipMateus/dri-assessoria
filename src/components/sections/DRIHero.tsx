@@ -82,7 +82,7 @@ const DRIHero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
             >
-              D.R.I ASSESSORIA
+              D.R.I.ASSESSORIA
               <span className="block mt-2" style={{ color: '#476d98' }}>EMPRESARIAL</span>
             </motion.h1>
 
